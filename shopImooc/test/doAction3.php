@@ -1,0 +1,92 @@
+<?php
+require_once 'upload.func.php';
+header("content-type:text/html;charset=utf-8");
+require_once '../lib/string.func.php';
+/*
+ * 构建上传文件信息
+ */
+function buildInfo(){
+    $i=0;
+    foreach($_FILES as $v){
+        //单文件上传
+        if(is_string($v['name'])){
+            $files[$i]=$v;
+            $i++;
+        }else{
+            //多文件上传
+            foreach ($v['name'] as $key=>$val){
+                $files[$i]['name'] = $val;
+                $files[$i]['size'] = $v['size'][$key];
+                $files[$i]['tmp_name'] = $v['tmp_name'][$key];
+                $files[$i]['error'] = $v['error'][$key];
+                $files[$i]['type'] = $v['type'][$key];
+                $i++;
+            }
+        }
+    }
+    return $files;
+}
+
+function uploadFile($path="upload",$allowExt=array("gif","jpeg","png","jpg","wbmp"),$maxSize=2097152,$imgFlag=true){
+    if(!file_exists($path)){
+        mkdir($path,0777,true);
+    }
+    $files=buildInfo();
+    $i=0;
+    foreach ($files as $file){
+        if($file['error']===UPLOAD_ERR_OK)   {
+            $ext=getExt($file['name']);
+            //检验文件的扩展名
+            if(!in_array($ext, $allowExt)){
+                exit("非法文件类型");
+            }
+            //校验是否是真的图片类型
+            if($imgFlag){
+                if(getimagesize($file['tmp_name'])){
+                    exit("不是真正的图片类型");
+                }
+            }
+            //检验上传文件大小
+            if($file['size']>$maxSize){
+                exit("上传文件过大");
+            }
+            if(!is_uploaded_file($file['tmp_name'])){
+                exit("不是通过HTTP POST方式上传!");
+            }
+            $filename=getUniName().".".$ext;
+            $destination=$path."/".$filename;
+            if(move_uploaded_file($file['tmp_name'], $destination)){
+                $file['name']=$filename;
+                unset($file['error'],$file['tmp_name']);
+                $uploadedFiles[$i]=$file;
+                $i++;
+            }
+        }else{
+            switch ($file['error']){
+                case 1:
+                    $mes="超过了配置文件上传的大小";
+                    break;
+                case 2:
+                    $mes="超过了表单设置上传文件的大小";
+                    break;
+                case 3:
+                    $mes="文件部分被上传";
+                    break;
+                case 4:
+                    $mes="没有文件被上传";
+                    break;
+                case 6:
+                    $mes="没有找到临时目录";
+                    break;
+                case 7:
+                    $mes="不可写";
+                    break;
+                case 8:
+                    $mes="由于PHP的扩展程序中断上传";
+                    break;
+            }
+            echo $mes;
+        }
+    }
+    return $uploadedFiles;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<style type="text/css">
+.shift{
+	background-color: yellow;
+	width: 200px;
+	height: 300px;
+	position: absolute;
+}
+</style>
+<title>Insert title here</title>
+</head>
+<body>
+<div class="shift" id="shift">
+	<span style="font-size: 30px;text-align: center;font-family: '楷体';">Hello</span>
+</div>
+</body>
+<script type="text/javascript">
+		window.onload = function() {
+			var boat = document.getElementById("shift");
+			var winX = window.innerWidth;//document.body.clientWidth,
+				winY = window.innerHeight;//document.body.clientHeight;
+			var x = Math.random()*winX,
+				y = Math.random()*winY;
+			console.log(x+":"+y);
+			boat.style.left = x + "px";
+			boat.style.top = y + "px";
+			var feedX = 5, feedY = 5;
+			setInterval(function(){
+				if ( x<=0&&feedX<0) {
+					feedX = Math.abs(feedX);
+				} else if ( x>=winX-boat.offsetWidth&&feedX>0 ){
+					feedX = -Math.abs(feedX);
+				}
+				x = x + feedX;
+				if ( y<=0&&feedY<0) {
+					feedY = Math.abs(feedY);
+				} else if ( y>=winY-boat.offsetHeight&&feedY>0 ){
+					feedY = -Math.abs(feedY);
+				}
+				y = y + feedY;
+				boat.style.left = x + "px";
+				boat.style.top = y + "px";
+			}, 30);
+		}
+	</script>
+</html>

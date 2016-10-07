@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+	<style type="text/css">
+		body{
+			margin: 0 auto;
+		}
+		ul{
+			padding: 0;
+			margin: 0;
+		}
+		a{
+			text-decoration: none;
+			color: white;
+			font-size: 14px;
+			padding: 0 3px;
+			display: block;
+		}
+		.menu li{
+			display: block;
+			float: left;
+			margin:3px;
+			background: gray;
+			width: 140px;
+			text-align: center;
+			color: white;
+			font-size: 9pt;
+		}
+		#logo{
+			background: white;
+			width: 230px;
+		}
+		#logo a{
+			color: gray;
+			font-size: 35pt;
+			background:white;
+		}
+		#toplogo{
+			display: none;
+			margin: 0 auto;
+			text-align: center;
+		}
+		#toplogo a{
+			color: black;
+			font-size: 35pt;
+		}
+		.rMenu{
+			display: none;
+		}
+
+		@media only screen and (min-width: 585px) and (max-width: 823px){
+			#logo {
+				display: none;
+			}
+			#toplogo{
+				display: block;
+				width: 100%;
+			}
+			.menu{
+				width: 585px;
+			}
+		}
+		@media only screen and (max-width: 585px){
+			#logo{
+				display: none;
+			}
+			#toplogo{
+				display: block;
+			}
+			.menu{
+				width: 100%;
+			}
+			.menu li{
+				width: 100%;
+				visibility: hidden;
+			}
+			.rMenu{
+				display: block;
+				text-align: right;
+			}
+		}
+	</style>
+	<script src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#rList").on("click",function(){
+				if($("ul li").hasClass("active")){
+					$("ul li").css("visibility","hidden").removeClass("active");
+				}
+				else{
+					$("ul li").css("visibility","visible").addClass("active");
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+<ul class="menu">
+	<div id="toplogo">
+		<a href="#">慕课网</a>
+		<a href="#" class="rMenu" id="rList">555</a>
+	</div >
+	<li><a href="#">课程大厅</a><br/>
+	IT课程都在这里啦!
+	</li>
+	<li><a href="#">学习中心</a><br/>
+		好好学习，天天向上!
+	</li>
+	<li id="logo"><a href="#">慕课网</a><br/>
+	</li>
+	<li><a href="#">个人中心</a><br/>
+	个人中心 修改密码
+	</li>
+	<li><a href="#">关于我们</a><br/>
+	单位地址 应聘信息
+	</li>
+	
+</ul>
+</body>
+</html>

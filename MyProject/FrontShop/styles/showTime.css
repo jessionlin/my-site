@@ -1,0 +1,376 @@
+@charset "utf-8";
+.feedback{
+	position: relative;
+	float: left;
+	width: 500px;
+	height: 140px;
+	background-color:red;
+	color:yellow;
+	margin-top: -160px;
+	margin-left: 230px;
+}
+.feedback .feedback_a{
+	color: yellow;
+	font-size: 30px;
+	max-width: 100px;
+}
+.feedback div .feedback_b{
+	width: 300px;
+	height: 120px;
+	font-size: 30px;
+	position: relative;
+	float: left;
+	margin-top: -130px;
+	margin-left: 100px;
+}
+
+.feedback button{
+	position:relative;
+	margin-top:-138px;
+	font-size:30px;
+	background-color:white;
+	float:right;
+	width:80px;
+	height:140px;
+}
+.userMes{
+	position:relative;
+	float:left;
+	margin-left:800px;
+	margin-top:-180px;
+}
+.the_last{
+	width: 1320px;
+	background-color:green;
+	height: 250px;
+	position: relative;
+	float: left;
+	font-size: 20px;
+	color: white;
+}
+.the_last .the_last_detail .the_last_detail_a{
+	width: 210px;
+	height: 250px;
+	position: relative;
+	margin-top: -191px;
+	margin-left: 30px;
+}
+.the_last .the_last_detail .the_last_detail_b{
+	width: 210px;
+	height: 250px;
+	position: relative;
+	margin-top: -250px;
+	margin-left: 230px;
+}
+.the_last .the_last_detail .the_last_detail_c{
+	width: 210px;
+	height: 250px;
+	position: relative;
+	margin-top: -250px;
+	margin-left: 430px;
+}
+.the_last .the_last_detail .the_last_detail_d{
+	width: 210px;
+	height: 250px;
+	position: relative;
+	margin-top: -250px;
+	margin-left: 630px;
+}
+.the_last .the_last_detail .the_last_detail_e{
+	width: 210px;
+	height: 250px;
+	position: relative;
+	margin-top: -250px;
+	margin-left: 830px;
+}
+.the_last .the_last_detail .the_last_detail_f{
+	width: 210px;
+	height: 250px;
+	position: relative;
+	margin-top: -250px;
+	margin-left: 1030px;
+}
+.the_last .the_last_detail .the_last_detail_a div,
+.the_last .the_last_detail .the_last_detail_b div,
+.the_last .the_last_detail .the_last_detail_c div,
+.the_last .the_last_detail .the_last_detail_d div,
+.the_last .the_last_detail .the_last_detail_e div,
+.the_last .the_last_detail .the_last_detail_f div{
+	width: 200px;
+	height: 50px;
+	position: relative;
+	float: left;
+	margin-top: -5px;
+	background-color: red;
+}
+.the_last .the_last_detail .the_last_detail_a a,
+.the_last .the_last_detail .the_last_detail_b a,
+.the_last .the_last_detail .the_last_detail_c a,
+.the_last .the_last_detail .the_last_detail_d a,
+.the_last .the_last_detail .the_last_detail_e a,
+.the_last .the_last_detail .the_last_detail_f a{
+	text-decoration: none;
+	color: white;
+}
+.the_last .the_last_detail .the_last_detail_a div:hover{
+	background-color: gray;
+}
+.the_last .the_last_detail .the_last_detail_b div:hover{
+	background-color: gray;
+}
+.the_last .the_last_detail .the_last_detail_c div:hover{
+	background-color: gray;
+}
+.the_last .the_last_detail .the_last_detail_d div:hover{
+	background-color: gray;
+}
+.the_last .the_last_detail .the_last_detail_e div:hover{
+	background-color: gray;
+}.the_last .the_last_detail .the_last_detail_f div:hover{
+	background-color: gray;
+}
+.the_last .the_last_list{
+	background-color: blue;
+	width: 90px;
+	height: 140px;
+	position: relative;
+	float: left;
+	margin-top: -195px;
+	margin-left: 1230px;
+	font-size: 20px;
+	color: red;
+}
+.the_last .the_last_list h1{
+	position: relative;
+	float: left;
+	margin-top: -3px;
+	margin-left: 5px;
+}
+
+.the_hottest{
+	width: 1320px;
+	align:center;
+	background-color:green;
+	height: 250px;
+	position: relative;
+	float: left;
+	font-size: 20px;
+	margin-top: 20px;
+	color: white;
+}
+.the_hottest .the_hottest_detail .the_hottest_detail_a{
+	width: 210px;
+	height: 250px;
+	position: relative;
+	margin-top: -191px;
+	margin-left: 30px;
+}
+.the_hottest .the_hottest_detail .the_hottest_detail_b{
+	width: 210px;
+	height: 250px;
+	position: relative;
+	margin-top: -250px;
+	margin-left: 230px;
+}
+.the_hottest .the_hottest_detail .the_hottest_detail_c{
+	width: 210px;
+	height: 250px;
+	position: relative;
+	margin-top: -250px;
+	margin-left: 430px;
+}
+.the_hottest .the_hottest_detail .the_hottest_detail_d{
+	width: 210px;
+	height: 250px;
+	position: relative;
+	margin-top: -250px;
+	margin-left: 630px;
+}
+.the_hottest .the_hottest_detail .the_hottest_detail_e{
+	width: 210px;
+	height: 250px;
+	position: relative;
+	margin-top: -250px;
+	margin-left: 830px;
+}
+.the_hottest .the_hottest_detail .the_hottest_detail_f{
+	width: 210px;
+	height: 250px;
+	position: relative;
+	margin-top: -250px;
+	margin-left: 1030px;
+}
+.the_hottest .the_hottest_detail .the_hottest_detail_a div,
+.the_hottest .the_hottest_detail .the_hottest_detail_b div,
+.the_hottest .the_hottest_detail .the_hottest_detail_c div,
+.the_hottest .the_hottest_detail .the_hottest_detail_d div,
+.the_hottest .the_hottest_detail .the_hottest_detail_e div,
+.the_hottest .the_hottest_detail .the_hottest_detail_f div{
+	width: 200px;
+	height: 50px;
+	position: relative;
+	float: left;
+	margin-top: -5px;
+	background-color: red;
+}
+.the_hottest .the_hottest_detail .the_hottest_detail_a a,
+.the_hottest .the_hottest_detail .the_hottest_detail_b a,
+.the_hottest .the_hottest_detail .the_hottest_detail_c a,
+.the_hottest .the_hottest_detail .the_hottest_detail_d a,
+.the_hottest .the_hottest_detail .the_hottest_detail_e a,
+.the_hottest .the_hottest_detail .the_hottest_detail_f a{
+	text-decoration: none;
+	color: white;
+}
+.the_hottest .the_hottest_detail .the_hottest_detail_a div:hover{
+	background-color: gray;
+}
+.the_hottest .the_hottest_detail .the_hottest_detail_b div:hover{
+	background-color: gray;
+}
+.the_hottest .the_hottest_detail .the_hottest_detail_c div:hover{
+	background-color: gray;
+}
+.the_hottest .the_hottest_detail .the_hottest_detail_d div:hover{
+	background-color: gray;
+}
+.the_hottest .the_hottest_detail .the_hottest_detail_e div:hover{
+	background-color: gray;
+}.the_hottest .the_hottest_detail .the_hottest_detail_f div:hover{
+	background-color: gray;
+}
+.the_hottest .the_hottest_list{
+	background-color: blue;
+	width: 90px;
+	height: 140px;
+	position: relative;
+	float: left;
+	margin-top: -195px;
+	margin-left: 1230px;
+	font-size: 20px;
+	color: red;
+}
+.the_hottest .the_hottest_list h1{
+	position: relative;
+	float: left;
+	margin-top: -3px;
+	margin-left: 5px;
+}
+
+.create{
+	width: 260px;
+	height: 460px;
+	position: relative;
+	float: left;
+	margin-left: 1350px;
+	margin-top: -500px;
+}
+.create .create_area{
+	width: 220px;
+	height: 90px;
+	position: relative;
+	float: left;
+	border-radius: 6px;
+	background-color: #FFCC99;
+	margin-top: -150px;
+	margin-left: 150px;
+	z-index: 1;
+}
+.create .create_area textarea{
+	position: relative;
+	float: left;
+	background-color: #FFCC99;
+	border:0px solid #FFCC99;
+	vertical-align: center;
+	margin-left: 5px;
+	margin-top: 3px;
+}
+.create .create_circle_a{
+	position: relative;
+	float: left;
+	width: 20px;
+	border-radius: 25px;
+	background-color: #FFCC99;
+	z-index: 10;
+	margin-left: 200px;
+	margin-top: -270px;
+}
+
+.create .create_circle_b{
+	position: relative;
+	float: left;
+	width: 20px;
+	border-radius: 50px;
+	background-color: #FFCC99;
+	z-index: 10;
+	margin-left: 210px;
+	margin-top: -250px;
+}
+
+.create .create_circle_c{
+	position: relative;
+	float: left;
+	width: 20px;
+	border-radius: 25px;
+	background-color: #FFCC99;
+	z-index: 10;
+	margin-left: 230px;
+	margin-top: -210px;
+}
+
+.create .create_circle_d{
+	position: relative;
+	float: left;
+	width: 20px;
+	border-radius: 25px;
+	background-color: #FFCC99;
+	z-index: 10;
+	margin-left: 255px;
+	margin-top: -190px;
+}
+
+.create .create_circle_e{
+	position: relative;
+	float: left;
+	width: 20px;
+	border-radius: 25px;
+	background-color: #FFCC99;
+	z-index: 10;
+	margin-left: 290px;
+	margin-top: -160px;
+}
+
+.create button{
+	width:300px;
+	color:red;
+	height:30px;
+	font-size:20px;
+	font-family:"楷体";
+	text-align:center;
+	position :relative;
+	top:-60px;
+	left:40px;
+}
+
+
+.user_feedback{
+	width:100%;
+	height:350px;
+}
+.user_feedback .user_feedback_details{
+	width:600px;
+	height:350px;
+	position:relative;
+	float:right;
+	margin-left:600px;
+	margin-top:-350px;
+}
+.user_feedback .user_feedback_details button{
+	width:200px;
+	height:30px;
+	font-family:"隶书";
+	font-size:25px;
+	position:relative;
+	top:160px;
+	left:200px;
+}

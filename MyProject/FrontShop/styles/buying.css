@@ -1,0 +1,35 @@
+@charset "utf-8";
+.buy{
+	width:500px;
+	height:600px;
+	text-align:center;
+	position:relatice;
+	float:left;
+	margin-left:550px;
+	margin-top:100px;
+	font-size:30px;
+	font-family:"楷体";
+	color:red;
+}
+.buy form .left{
+	width:100px;
+	height:32px;
+	font-size:30px;
+	font-family:"隶书";
+	background-color:red;
+	color:white;
+	position:relative;
+	float:left;
+	margin-left:100px;
+}
+.buy form .right{
+	width:100px;
+	height:32px;
+	font-size:30px;
+	font-family:"隶书";
+	background-color:red;
+	color:white;
+	position:relative;
+	float:right;
+	margin-right:100px;
+}

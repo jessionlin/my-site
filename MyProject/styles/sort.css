@@ -1,0 +1,6 @@
+@charset "utf-8";
+.login{height:20px;}
+.login ul{font-weight: 20px;list-style: none;}
+.login ul li{list-style: none;}
+.login ul li a{float: left;color: red;}
+.search .search_box{height: 20px;border:1px solid red;}

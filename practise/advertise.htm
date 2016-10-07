@@ -1,0 +1,35 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+</head>
+<body>
+<img src="pic/advertise.gif" width="300" height="180"><script language="javascript">
+var W=document.body.clientWidth;
+var H=document.body.clientHeight;
+var L=window.screen.width-W;
+var T=window.screen.height;
+self.moveTo(L,T);
+function drop(n) {
+	if (n>(T-H-60)){
+		self.moveTo(L-12,--n);
+		var tim=setTimeout("drop("+n+")",1);
+	}
+	else{clearTimeout(tim)}
+}
+//function form_focus(){self.focus();setTimeout("form_focus()",1);}    //广告始终置前
+//form_focus();  //调用广告窗体函数
+drop(T);
+</script>
+</body>
+</html>
+

@@ -1,0 +1,118 @@
+@charset "utf-8";
+.left{
+	width: 500px;
+	height: 610px;
+	position: relative;
+	top: -40px;
+	left: -7px;
+}
+.left .up{
+	width: 500px;
+	height: 508px;
+}
+.left .down{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	margin-top: 0;
+}
+
+.left .down a{
+	width: 100px;
+	position: relative;
+	float: left;
+	height: 100px;
+	background-color: yellow;
+}
+
+.right{
+	width: 60%;
+	position: absolute;
+	float: right;
+	left: 700px;
+	height: 610px;
+	z-index: 1;
+	top: 120px;
+}
+.right .table tr td span{
+	width: 400px;
+	height: 70%;
+	background-color: yellow;
+}
+.right .pro_name{
+	width: 100%;
+	height: 7%;
+}
+.right .pro_name span{
+	color: red;
+	font-size: 30px;
+	text-align: center;
+	font-family: "楷体";
+}
+
+.right .table tr td .num .num-{
+	width: 30px;
+	font-size: 46px;
+	position: relative;
+	border: 1px solid #000;
+	float: left;
+	text-align: center;
+}
+.right .table tr td .num .numadd{
+	width: 30px;
+	font-size: 46px;
+	position: relative;
+	border: 1px solid #000;
+	float: left;
+	text-align: center;
+}
+.right .table tr td .num input{
+	width: 45px;
+	font-size: 20px;
+	height: 46px;
+	position: relative;
+	background-color: #C4E1E1;
+	float: left;
+	text-align: center;
+}
+.right .buying button{
+	width: 450px;
+	height: 35px;
+	position: relative;
+	margin-top: 50px;
+	color: red;
+	font-size: 30px;
+	font-family: '楷体';
+}
+
+.big_pic{
+	width:100px;
+	height: 100px;
+	z-index: 999;
+	position: absolute;
+	overflow: hidden;
+	left: 530px;
+	background-color: #e0e0e0;
+	display: block;
+	top: 80px;
+}
+
+.big_pic #part{
+	position: absolute;
+}
+.mask{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	opacity: 0.5;
+	background-color: #0A0A0A;
+	display: none;
+}
+
+.transparent{
+	position: absolute;
+	width: 500px;
+	height: 508px;
+	top: 80px;
+	left: 0;
+}

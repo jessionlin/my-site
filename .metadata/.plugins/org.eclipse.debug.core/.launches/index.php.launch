@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.zend.php.phpunit.PHPUnitLaunchConfigurationType">
+<stringAttribute key="ATTR_FILE" value="C:\Program Files\Zend\Zend Studio 13.5.1\plugins\com.zend.php.phpunit_13.5.1.v20160705-1334\resources\phpunit.phar"/>
+<stringAttribute key="ATTR_FILE_FULL_PATH" value="C:\Program Files\Zend\Zend Studio 13.5.1\plugins\com.zend.php.phpunit_13.5.1.v20160705-1334\resources\phpunit.phar"/>
+<stringAttribute key="ATTR_LOCATION" value="C:\Program Files\Zend\Zend Studio 13.5.1\plugins\com.zend.php.debug.debugger.php70.win32_13.5.1.v20160705-1334\resources\php.exe"/>
+<stringAttribute key="ZEND_PHPUNIT_TESTS_CONTAINER_TYPE" value="SCRIPT_SOURCE"/>
+<booleanAttribute key="com.zend.php.phpunit.code_coverage" value="true"/>
+<stringAttribute key="com.zend.php.phpunit.container" value="index.php"/>
+<stringAttribute key="com.zend.php.phpunit.elementPath" value="\test\index.php"/>
+<booleanAttribute key="com.zend.php.phpunit.is_suite" value="true"/>
+<booleanAttribute key="com.zend.php.phpunit.logXml" value="true"/>
+<stringAttribute key="com.zend.php.phpunit.logXmlLocation" value="E:\wamp64\www\my-site\index.php-20160818-2009.xml"/>
+<stringAttribute key="com.zend.php.phpunit.project" value="test"/>
+<stringAttribute key="com.zend.php.phpunit.runType" value="PHAR_EXECUTION_TYPE"/>
+<booleanAttribute key="firstLineBreakpoint" value="false"/>
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="ZEND_PHPUNIT_PORT" value="7478"/>
+</mapAttribute>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="true"/>
+<stringAttribute key="org.eclipse.php.debug.core.PHP_Project" value="test"/>
+<booleanAttribute key="org.eclipse.php.debug.core.RunWithDebugInfo" value="false"/>
+</launchConfiguration>

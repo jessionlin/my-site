@@ -1,0 +1,287 @@
+@charset "utf-8";
+.img .img_1{
+	background-color: blue;
+	height: 508px;
+	width: 780px;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	z-index: 5;
+	margin-top: -300px;
+}
+.img .img_1 .left{
+	position: relative;
+	float: left;
+	margin-left: 0px;
+}
+.img .img_1  .right{
+	position :relative;
+	background-color: red;
+	margin-top: 0px;
+	float: left;
+	margin: 0px auto;
+	margin-left: 500px;
+	height: 508px;
+	margin-top: -508px;
+	width: 
+}
+.img .img_1  .right ul li{
+	position: relative;
+	list-style: none;
+	font-size: 25px;
+	font-family: "楷体";
+	float: left;
+	left: -30px;
+	margin: 0px auto;
+	color: yellow;
+	height: 30px;
+}
+.img .img_1  .right ul li a{
+	color:#FAF4FF;
+	text-decoration: none;
+}
+/**/
+.img .img_2{
+	background-color: blue;
+	height: 508px;
+	width: 780px;
+	float: left;
+	display:none;
+	position: relative;
+	margin-left: 10px;
+	z-index: 5;
+	margin-top: -300px;
+}
+.img .img_2 .left{
+	position: relative;
+	float: left;
+	margin-left: 0px;
+}
+.img .img_2  .right{
+	position :relative;
+	background-color: red;
+	margin-top: 0px;
+	float: left;
+	margin: 0px auto;
+	margin-left: 500px;
+	height: 508px;
+	margin-top: -508px;
+	width: 
+}
+.img .img_2  .right ul li{
+	position: relative;
+	list-style: none;
+	font-size: 25px;
+	font-family: "楷体";
+	float: left;
+	left: -30px;
+	margin: 0px auto;
+	color: yellow;
+	height: 30px;
+}
+.img .img_2  .right ul li a{
+	color:#FAF4FF;
+	text-decoration: none;
+}
+
+/**/
+.img .img_3{
+	background-color: blue;
+	height: 508px;
+	width: 780px;
+	float: left;
+	display:none;
+	position: relative;
+	margin-left: 10px;
+	z-index: 5;
+	margin-top: -300px;
+}
+.img .img_3 .left{
+	position: relative;
+	float: left;
+	margin-left: 0px;
+}
+.img .img_3  .right{
+	position :relative;
+	background-color: red;
+	margin-top: 0px;
+	float: left;
+	margin: 0px auto;
+	margin-left: 500px;
+	height: 508px;
+	margin-top: -508px;
+	width: 
+}
+.img .img_3  .right ul li{
+	position: relative;
+	list-style: none;
+	font-size: 25px;
+	font-family: "楷体";
+	float: left;
+	left: -30px;
+	margin: 0px auto;
+	color: yellow;
+	height: 30px;
+}
+.img .img_3  .right ul li a{
+	color:#FAF4FF;
+	text-decoration: none;
+}
+/**/
+.img .img_4{
+	background-color: blue;
+	display:none;
+	height: 508px;
+	width: 780px;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	z-index: 5;
+	margin-top: -300px;
+}
+.img .img_4 .left{
+	position: relative;
+	float: left;
+	margin-left: 0px;
+}
+.img .img_4  .right{
+	position :relative;
+	background-color: red;
+	margin-top: 0px;
+	float: left;
+	margin: 0px auto;
+	margin-left: 500px;
+	height: 508px;
+	margin-top: -508px;
+	width: 
+}
+.img .img_4  .right ul li{
+	position: relative;
+	list-style: none;
+	font-size: 25px;
+	font-family: "楷体";
+	float: left;
+	left: -30px;
+	margin: 0px auto;
+	color: yellow;
+	height: 30px;
+}
+.img .img_4  .right ul li a{
+	color:#FAF4FF;
+	text-decoration: none;
+}
+.click{
+	width:152px;
+	height:8px;
+	display:inline-block;
+	position:relative;
+	margin-left:-600px;
+	margin-top:150px;
+	z-index:10;
+}
+.click .click_1{
+	background-color: red;
+	width: 30px;
+	float: left;
+	position: relative;
+	margin: 0 0px;
+	height: 8px;
+}
+.click .click_2{
+	background-color: blue;
+	width: 30px;
+	float: left;
+	position: relative;
+	margin: 0 3px;
+	height: 8px;
+}
+.click .click_3{
+	background-color: blue;
+	width: 30px;
+	float: left;
+	position: relative;
+	margin: 0px 3px;
+	height: 8px;
+}
+.click .click_4{
+	background-color: blue;
+	width: 30px;
+	float: left;
+	position: relative;
+	margin: 0px 3px;
+	height: 8px;
+}
+.imgse{
+	width: 510px;
+	height: 700px;
+	background-color: yellow;
+	position: relative;
+	float: left;
+	margin-top:-650px; 
+	z-index: 5;
+	margin-left: 1260px;
+}
+.imgse a{
+	text-decoration:none;
+}
+.imgse .imgseb{
+	position: relative;
+	float: left;
+	margin-left: 0px;
+	margin-top: 00px;
+	width: 250px;
+	height: 310px;
+}
+.imgse .imgsec{
+	position: relative;
+	float: left;
+	margin-left: 260px;
+	margin-top: -663px;
+	width: 250px;
+	height: 310px;
+}
+.imgse .imgsed{
+	position: relative;
+	float: left;
+	margin-left: 260px;
+	margin-top: -310px;
+	width: 250px;
+	height: 310px;
+}
+
+.imgse .imgsea div{
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	position: left;
+	width: 250px;
+	height: 50px;
+	background-color: red; 
+}
+.imgse .imgseb div{
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	position: left;
+	width: 250px;
+	height: 45px;
+	background-color: red; 
+}
+.imgse .imgsec div{
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	position: left;
+	width: 250px;
+	height: 50px;
+	background-color: red; 
+}
+.imgse .imgsed div{
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	position: left;
+	width: 250px;
+	height: 45px;
+	background-color: red; 
+}

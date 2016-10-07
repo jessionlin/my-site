@@ -1,0 +1,20 @@
+<?php
+// require_once 'libs/Controller/testController.class.php';
+// require_once 'libs/Model/testModel.class.php';
+// require_once 'libs/View/testView.class.php';
+// $testConstroller=new testController();
+// $testConstroller->show();
+// require_once 'function.php';
+// require_once 'configs.php';
+// $controllerAllow = array('test','index');
+// $methodAllow = array('test','index','show');
+// $view = ORG('Smarty/', 'Smarty',$viewconfigs);
+// var_dump($view);
+// $controller= in_array($_GET['controller'], $controllerAllow)?daddslashes($_GET['controller']):'index';
+// $method = in_array($_GET['method'], $methodAllow)?daddslashes($_GET['method']):'index';
+require_once('function.php');
+	require_once('configs.php');
+	$view = ORG('Smarty/', 'Smarty', $viewconfigs);
+	$controller = $_GET['controller'];
+	$method = $_GET['method'];
+	C($controller, $method);

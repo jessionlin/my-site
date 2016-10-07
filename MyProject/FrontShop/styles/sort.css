@@ -1,0 +1,148 @@
+@charset "utf-8";
+.login {
+	height:20px;
+	width:100%;
+	position:relative;
+	top:0px;
+}
+.login .top{
+	text-decoration:none;
+	position:relative;
+	top:0px;
+}
+.search_box .search_text{
+	height: 20px;
+	border:2px solid red;
+	position: relative;
+	top: 0px;
+	font-size: 30px;
+	height: 30px;
+	width: 70%;
+}
+ .search_click{
+	position: relative;
+	margin-right: 0px;
+	height: 34px;
+	top: -34px;
+	background-color: red;
+	width: 15%;
+	float: right;
+	font-size: 25px;
+
+}
+.search{
+	height: 34px;
+	position: relative;
+	top: 0px;
+	text-align: center;
+	width: 80%;
+}
+.choose{
+	position: relative;
+	z-index: 99;
+	width: 200px;
+	background-color: pink;
+	top:10px;
+	padding: 0;
+}
+.choose ul {
+	list-style: none;
+	margin: 50px auto ;
+	width: 100%;
+
+}
+.choose ul li{
+	/*border: 1px solid #000;*/
+	margin: 0px auto ;
+	position: relative;
+	width: 100%;
+	color: purple;
+	height:35px;
+	margin-left: -40px;
+	border-bottom: 1px solid white;
+	text-align: center;
+	font-size: 20px;
+}
+.choose ul li ul{
+	display: none;
+	position: absolute;
+	width: 350px;
+	height:310px;
+	margin: 0px auto;
+	background-color:white;
+	float: left;
+	margin-left: 200px;
+	margin-top: -23px;
+}
+.choose ul li a{    	
+    	text-decoration: none;
+}
+.choose ul li:hover{
+	background-color: gray;
+
+}
+.choose ul li a:hover{
+	color:blue;
+}
+.choose ul li:hover>ul{
+	display: block;
+}
+/*.choose ul li ul li:hover{
+	background-color: pink;
+}*/
+
+.choose_by_factory{
+	position: relative;
+	background-color: orange;
+	width: 250px;
+	height: 530px;
+	float: left;
+	margin-left: 10px;
+	margin-top: -475px;
+}
+.choose_by_factory ul{
+	color: green;
+	font-size: 30px;
+	list-style: none;
+	width: 100%;
+}
+.choose_by_factory ul li{
+	width: 250px;
+	z-index: 10;
+	position: relative;
+	text-align: center;
+	float: left;
+	left: -40px;
+	margin: 0px auto;
+	top: 0px;
+	border-bottom: 1px solid white;
+}
+.choose_by_factory ul li a{
+	text-decoration: none;
+}
+
+.choose_by_factory ul ul{
+	display: none;
+	position: absolute;
+	width: 210px;
+	margin: 0px auto;
+	background-color: white;
+	height: 430px;
+	float: left;
+	margin-left: 250px;
+	top: -35px;
+
+}
+.choose_by_factory ul li:hover>ul{
+	display: block;
+}
+.choose_by_factory ul li:hover{
+	background-color: gray;
+}
+
+.choose ul ul iframe{
+	position:absolute;
+	display:block;
+	overflow:hidden;
+	top: 0px;
+}

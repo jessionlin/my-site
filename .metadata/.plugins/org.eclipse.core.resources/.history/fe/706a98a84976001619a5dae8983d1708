@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+.login{
+	width: 30%;
+	height: 500px;
+	align:center;
+	position: relative;
+	float: left;
+	margin-left: 500px;
+	margin-top: 200px;
+}
+.login .table tr td input{
+	width:100%;
+	height:20px;
+}
+.login .table {
+	margin:0px auto;
+}
+.login .table tr button{
+	width:100%;
+	height:60px;
+	position:relative;
+	top:240px;
+	align:center;
+}
+</style>
+	<title>登录</title>
+</head>
+<body>
+<div class="login">
+	<form action="doLogin.php" method="post">
+<!-- 		<ul> -->
+<!-- 			<li>用户名：</li> -->
+<!-- 			<li><input class="lm" type="text" name="username"/></li> -->
+<!-- 			<li>密码：</li> -->
+<!-- 			<li><input class="lm" type="password" name="password"/></li> -->
+<!-- 			<li>验证码：</li> -->
+<!-- 			<li><input class="lm" type="text" name="verify"/></li> -->
+<!-- 			<li><img src="getVerify.php"></li> -->
+<!-- 			<button class="log" value="">登录</button> -->
+<!-- 		</ul> -->
+		<table class="table" style="border-width: 1px;" cellspacing="1" cellpadding="5" border="1" align="center" width="100%">
+			<tr height="60px">
+				<td width="40%" align="center">用户姓名</td>
+				<td width="60%" align="center"><input type="text" name="username"></td>
+			</tr>
+			<tr height="60px">
+				<td width="40%" align="center">用户密码</td>
+				<td width="60%" align="center"><input type="password" name="password"></td>
+			</tr>
+			<tr height="60px">
+				<td width="40%" align="center">请输入验证码:</td>
+				<td width="60%" align="center"><input type="text" name="verify"></td>
+			</tr>
+			<tr height="60px">
+				<td width="40%" align="center"><img src="getVerify.php"></td>
+				<td width="60%" align="center"><a href="" name="reVerify" style="text-decoration: none;color:#007500">看不清，请换一张</a></td>
+			</tr>
+			<tr height="60px">
+				<button class="log">登录</button>
+			</tr>
+		</table>
+	</form>
+</div>
+</body>
+</html>

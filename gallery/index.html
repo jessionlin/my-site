@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="images/show.css">
+	<title></title>
+}
+</head>
+<body onselectstart="return false;">
+<div class="wrap" id="wrap">
+	<!-- 2.改写试图，为模板字符串 -->
+	<div class="photo  photo_front" onclick="turn(this)" id="photo_{{index}}">
+		<div class="photo_wrap">
+		<div class="side side-front">
+			<p class="image"><img src="images/{{img}}"></p>
+			<p class="caption">{{caption}}</p>
+		</div>
+		<div class="side side-back">
+			<p class="desc">{{desc}}</p>
+		</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="images/data.js"></script>
+<script type="text/javascript" src="images/do.js"></script>
+</body>
+</html>
